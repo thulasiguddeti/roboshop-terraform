@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "daws-tfstate"
-    key    = "vpc-1"
+    key    = "vpn-1"
     region = "us-east-1"
     dynamodb_table = "daws-tflocking"
   }
